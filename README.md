@@ -25,7 +25,7 @@ People are the most common targets of web attackers that want to steal their per
 Potential Methods:
 To reduce the number of assaults leading to bogus websites, we suggest an approach that uses data mining algorithms to detect harmful websites by tracking down the URL.To imitate a legitimate website, attackers modify the subdomain and file path (if it appears in the URL) or make a typographical error. As a result, we must examine the URL and determine what each element includes in order to detect phishing websites. We plan to use Supervised Learning models like Decision Trees, Support Vector Machines(SVM), Naive Bayes Classifier and Random Forest are examples of potential techniques. We intend to introduce some more ways if we go farther into the project.
 
-We are using **Decision Trees Classifier** because it can be useful in identifying the phishing website instances, based on a tree-like model of decisions. This tree  learns from a training dataset, which is about ⅔ of the data points. And, the rest can be used as test data, to label the website instances.
+We are using **Decision Trees Classifier** because it can be useful in identifying the phishing website instances, based on a tree-like model of decisions. This tree  learns from a training dataset, which is about 2/3 of the data points. And, the rest can be used as test data, to label the website instances.
 
 **SVM or support vector machine** is a kind of supervised learning model with algorithms which are used to analyze data for classification and regression analysis. SVM will help us in identifying the phishing websites from the given dataset by building a model which will map training examples to points in space to maximize the width of the gap between the two categories.
 
