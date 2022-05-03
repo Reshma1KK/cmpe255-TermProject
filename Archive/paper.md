@@ -24,6 +24,11 @@ Firstly, we filtered the data by dropping duplicate rows. These values were remo
 
 Next, we analysed that the dataset contained '-1' values throughout where almost all the rows had this value, so we cannot drop all this data. We then checked the percentage of '-1' values in each column. 
 
+## Models to be used
+
+### Logistic Regression 
+Logistic regression is a supervised learning technique. It is used to calculate or predict the probability of a binary event occurring. It is used in statistical software to understand the relationship between the dependent variable and one or more independent variables by estimating probabilities using a logistic regression equation. 
+
 
 # Comparisons
 
