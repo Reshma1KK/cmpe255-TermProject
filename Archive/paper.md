@@ -32,7 +32,7 @@ As per the previous analysis, we have noticed that almost 80% of the dataset con
 
 Once we have dropped values containing ‘-1’, the next step is to look at the missing values. There are three main reasons why values could be missing – Missing at random, Missing Completely at random, Not Missing at random. The initial approach initiated for imputing is using mean imputation. As the name suggests, the mean is calculated for the available values and replaced with the non-missing value’s number. An essential step to bear in mind during mean imputation is to remove outliers to prevent seeing absurd or surprising values as mean.
 
-![image](https://user-images.githubusercontent.com/54767304/166620549-cab9e989-dcd4-4586-bd06-4fa08e24ae48.png)
+![image](https://user-images.githubusercontent.com/54767304/166620970-d8c2d68e-55c9-4f0f-b800-a38abd55f52d.png)
 
 
 In addition to this, the missing values are also imputed using median and mode. These methods do not necessarily worry about outliers as they work using the middle values that are present when the column values are sorted. The last imputation method used is the most effective in predicting the missing values. It uses the Nearest Neighbor method known as KNN imputation, where the Nan values are replaced with the values of the neighboring values.
