@@ -25,11 +25,15 @@ We will be incorporating classification models, whose input will be URL attribut
 
 Data Preprocessing is referred to as manipulation or dropping of data before it is used to ensure or enhance performance. It is basically the process of transforming the raw data into understandable format. Data preprocessing is the most important phase of  machine learning. It includes removing irrelevant and redundant information from the data. Examples of data preprocessing include cleaning, instance selection, normalization, feature extraction and selection. The product of data preprocessing is the final training set. The dataset that we have selected contained irrelevant and meaningless information which has been removed.
 
-Plotting count of values per column before dropping duplicate values :
+### Plotting count of values per column before dropping duplicate values :
 
 <img width="913" alt="Screen Shot 2022-05-11 at 7 51 37 PM" src="https://user-images.githubusercontent.com/25512807/167996063-6bed6957-ec3a-4da8-96a5-2b6fd4d7f7ac.png">
 
-Firstly, we filtered the data by dropping duplicate rows. These values were removed to reduce the dimensionality. 
+### Visualization of Missing Data using missingno lib.
+<img width="778" alt="Screen Shot 2022-05-11 at 10 10 43 PM" src="https://user-images.githubusercontent.com/25512807/167996490-c99ed10b-47fb-4d60-ac7b-6ff5f5e487a5.png">
+
+
+### Firstly, we filtered the data by dropping duplicate rows. These values were removed to reduce the dimensionality. 
 
 <img width="500" alt="Screen Shot 2022-05-11 at 7 54 37 PM" src="https://user-images.githubusercontent.com/25512807/167996115-ea340563-15c9-4cf7-b687-8092e8c9af97.png">
 
