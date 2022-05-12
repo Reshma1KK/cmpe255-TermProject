@@ -25,7 +25,15 @@ We will be incorporating classification models, whose input will be URL attribut
 
 Data Preprocessing is referred to as manipulation or dropping of data before it is used to ensure or enhance performance. It is basically the process of transforming the raw data into understandable format. Data preprocessing is the most important phase of  machine learning. It includes removing irrelevant and redundant information from the data. Examples of data preprocessing include cleaning, instance selection, normalization, feature extraction and selection. The product of data preprocessing is the final training set. The dataset that we have selected contained irrelevant and meaningless information which has been removed.
 
+Plotting count of values per column before dropping duplicate values :
+
+<img width="913" alt="Screen Shot 2022-05-11 at 7 51 37 PM" src="https://user-images.githubusercontent.com/25512807/167996063-6bed6957-ec3a-4da8-96a5-2b6fd4d7f7ac.png">
+
 Firstly, we filtered the data by dropping duplicate rows. These values were removed to reduce the dimensionality. 
+
+<img width="500" alt="Screen Shot 2022-05-11 at 7 54 37 PM" src="https://user-images.githubusercontent.com/25512807/167996115-ea340563-15c9-4cf7-b687-8092e8c9af97.png">
+
+
 Next, we analysed that the dataset contained '-1' values throughout where almost all the rows had this value, so we cannot drop all this data. We then checked the percentage of '-1' values in each column. 
 
 As per the previous analysis, we have noticed that almost 80% of the dataset contains ‘-1’. Since most of the columns have ‘-1’, it would not be wise to remove them altogether as they may significantly affect the result. To tackle this, we remove the columns with less than 80% ‘-1’ and replace them with Nan. To improve the efficiency while testing and training, we drop the rest of the columns.
@@ -42,7 +50,8 @@ In addition to this, the missing values are also imputed using median and mode. 
 ## Models to be used
 
 ### Logistic Regression 
-Logistic regression is a supervised learning technique. It is used to calculate or predict the probability of a binary event occurring. It is used in statistical software to understand the relationship between the dependent variable and one or more independent variables by estimating probabilities using a logistic regression equation. 
+Logistic regression is a supervised learning technique. Logistic Regression is used in statistical software to understand the relationship between the dependent variable and one or more independent variables by estimating probabilities using a logistic regression equation. Logistic Regression is used to calculate or predict the probability of a binary event occurring where the outcome can be either yes or no. In our case, in the dataset we are using, we need to predict based on the field values of some websites provided if the that particular website is a phishing website or a malicious one or not. So, the usecase in this case is again binary. Additionally, the training data we're using is independent of each other but at the same time can be linearly related and is of fairly large size. All these factors/ assumptions of the traning data are satisfied for implementing logistic regression.
+
 
 ### Random Forest Classifier
 Random Forest Classifier is used to test and train the data, a supervised machine learning algorithm. The main reason behind picking random forests is to overcome the problem of overfitting. Reducing overfitting is achieved by selecting features randomly compared to decision trees that work only using the rules generated.
