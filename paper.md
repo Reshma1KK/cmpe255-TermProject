@@ -29,8 +29,17 @@ Plotting count of values per column before dropping duplicate values :
 
 <img width="913" alt="Screen Shot 2022-05-11 at 7 51 37 PM" src="https://user-images.githubusercontent.com/25512807/167982644-67b7d674-8328-4422-98c5-d3d494dfae17.png">
 
+
+Visualization of Missing Data using missingno lib.
+
+<img width="778" alt="Screen Shot 2022-05-11 at 8 10 40 PM" src="https://user-images.githubusercontent.com/25512807/167984658-faedefc1-a685-4d59-9c32-619d21041907.png">
+
+
+
 Firstly, we filtered the data by dropping duplicate rows. These values were removed to reduce the dimensionality. 
 <img width="500" alt="Screen Shot 2022-05-11 at 7 54 37 PM" src="https://user-images.githubusercontent.com/25512807/167982737-062fd3ca-714b-44ae-960e-ff244d8e2130.png">
+
+
 
 
 Next, we analysed that the dataset contained '-1' values throughout where almost all the rows had this value, so we cannot drop all this data. We then checked the percentage of '-1' values in each column. 
