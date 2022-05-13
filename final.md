@@ -57,10 +57,10 @@ Visualization-
 ![image](https://user-images.githubusercontent.com/90728105/167983099-0a990332-8f99-41a7-af1a-eb28c0a19aa4.png)
 
 After Imputation-
-- Below we can see after applying each type of imputation we have imputed/substituted the missing value with mean, median and mode. Therefore, all the green bars in the plots are of equal length and are of equal length.\
-1. Median Imputed
+- Below we can see after applying each type of imputation we have imputed/substituted the missing value with mean, median and mode. Therefore, all the green bars in the plots are of equal length and are of equal length.
+1. Median Imputed\
 ![image](https://user-images.githubusercontent.com/90728105/167984027-e25f0024-5fb0-4b2d-ba2b-99e61c2519c1.png)
-2. Mean Imputed
+2. Mean Imputed\
 ![image](https://user-images.githubusercontent.com/90728105/167984332-7a69a27a-1833-4b2e-8309-470d056bdff6.png)
-3. Mode Imputed
+3. Mode Imputed\
 ![image](https://user-images.githubusercontent.com/90728105/167984112-0e5a96d8-b675-4794-acba-1750056146a2.png)
